@@ -1,6 +1,8 @@
 safe: true
 markdown: kramdown
-highlighter: pygments
+kramdown:
+        input: GFM
+highlighter: null
 permalink: /:title.html
 relative_permalinks: false
 
